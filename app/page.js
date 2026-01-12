@@ -1,40 +1,55 @@
-import Navbar from "./components/Navbar";
-import RightSidebar from "./components/RightSidebar";
+"use client";
+
 import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 import TopHeader from "./components/TopHeader";
+import Hero from "./components/Hero";
+import Live from "./components/Live";
+import RightSidebar from "./components/RightSidebar";
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-black p-4">
-      <div className="bg-gray flex overflow-hidden shadow-2xl">
+    <div className="h-screen w-screen bg-[#0f172a] overflow-hidden">
+      <div className="flex h-full w-full shadow-2xl">
 
-        {/* Sidebar */}
-        <Sidebar />  
+        {/* Left Sidebar */}
+        <Sidebar />
 
-        {/* Right Main Content */}
-        <div className="flex-1 flex flex-col">
+        {/* Main Content Area */}
+        <div className="flex flex-col flex-1 overflow-hidden">
 
           {/* Navbar */}
-          <div className="px-6 mt-2">
+          <div className="px-6 pt-4">
             <Navbar />
           </div>
 
-           {/* Top Header */}
-           <main className=" min-h-screen p-10 px-6 pt-5">
-            <TopHeader />
-          </main>
+          {/* Scrollable Content */}
+          <div className="flex-1 overflow-y-auto px-6 pb-6">
 
-          {/* Page Content */}
-          <div className="p-6 flex-1 overflow-y-auto">
-            {/* your rest content here */}
+            <div className="mt-6">
+              <TopHeader />
+            </div>
+
+            <div className="mt-6">
+              <Hero />
+            </div>
+
+            <div className="mt-6">
+              <Live />
+            </div>
+
+            <div className="mt-6 text-white">
+              {/* Your remaining dashboard widgets here */}
+            </div>
+
           </div>
-
-          {/*RightSidebar */}
-          <div className="p-6 flex-1">
-            <RightSidebar/>
-          </div>
-
         </div>
+
+        {/* Right Sidebar */}
+        <RightSidebar />
+
+
+        
       </div>
     </div>
   );

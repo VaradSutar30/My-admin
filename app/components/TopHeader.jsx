@@ -2,7 +2,7 @@ import React from "react";
 
 const TopHeader = () => {
   return (
-    <div className="flex items-start justify-between text-white bg-[#1b2330] px-10 py-8 rounded-lg">
+    <div className="flex items-start justify-between text-white bg-[#1b2330] px-10 py-3 rounded-lg">
 
       {/* LEFT SIDE */}
       <div>

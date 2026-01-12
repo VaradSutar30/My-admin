@@ -1,7 +1,15 @@
-import { FaSearch, FaMicrophone } from "react-icons/fa";
+"use client";
+import { useState, useEffect } from "react";
+import { FaSearch, FaMicrophone, FaMoon, FaSun } from "react-icons/fa";
 import { IoNotifications } from "react-icons/io5";
 
 const Navbar = () => {
+  const [dark, setDark] = useState(true);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", dark);
+  }, [dark]);
+
   return (
     <div className="w-full flex items-center justify-between px-6 py-3">
 
@@ -19,11 +27,22 @@ const Navbar = () => {
       </div>
 
       {/* Right Icons */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-4 ml-6">
+
+        {/* Dark Mode Button */}
+        <button
+          onClick={() => setDark(!dark)}
+          className="w-10 h-10 flex items-center justify-center bg-zinc-800 rounded-full text-yellow-400 hover:bg-zinc-700 transition"
+        >
+          {dark ? <FaSun /> : <FaMoon />}
+        </button>
+
+        {/* Notification */}
         <div className="w-10 h-10 flex items-center justify-center bg-zinc-800 rounded-full text-gray-400 hover:text-white cursor-pointer">
           <IoNotifications />
         </div>
 
+        {/* Profile */}
         <div className="w-10 h-10 flex items-center justify-center bg-zinc-800 rounded-full cursor-pointer">
           <img
             src="/images/villa.jfif"
@@ -32,7 +51,6 @@ const Navbar = () => {
           />
         </div>
       </div>
-
     </div>
   );
 };
