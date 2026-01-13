@@ -11,12 +11,24 @@ const Live = () => {
   }, []);
 
   return (
-    <div className="bg-[#1b2330] rounded-xl shadow-md p-6">
-      <h2 className="text-xl font-semibold text-yellow-400 mb-4 flex items-center gap-2">
-        <span className="animate-pulse text-red-500">●</span> Live Stream
+    <div
+      className="bg-[#1b2330] rounded-xl shadow-md 
+      p-4 sm:p-5 md:p-6"
+    >
+      <h2
+        className="text-base sm:text-lg md:text-xl 
+        font-semibold text-yellow-400 mb-3 sm:mb-4 
+        flex items-center gap-2"
+      >
+        <span className="animate-pulse text-red-500 text-lg sm:text-xl">●</span>
+        Live Stream
       </h2>
 
-      <div className="relative w-full aspect-video rounded-lg overflow-hidden border border-gray-700">
+      <div
+        className="relative w-full aspect-video 
+        rounded-lg overflow-hidden 
+        border border-gray-700"
+      >
         <video
           ref={videoRef}
           src="/videos/flat.mp4"
