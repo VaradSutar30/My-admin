@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="w-full flex items-center justify-between px-4 sm:px-6 py-3 bg-[#1b2330] rounded-lg">
+    <div className="w-full flex items-center justify-between px-4 sm:px-6 py-3 bg-[#0f172a] rounded-lg">
       {/* Search Bar */}
       <div className="flex-1 max-w-full md:max-w-md mr-4">
         <input

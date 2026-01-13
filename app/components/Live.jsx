@@ -12,7 +12,7 @@ const Live = () => {
 
   return (
     <div
-      className="bg-[#1b2330] rounded-xl shadow-md 
+      className="bg-[#0f172a] rounded-xl shadow-md 
       p-4 sm:p-5 md:p-6"
     >
       <h2

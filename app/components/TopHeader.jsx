@@ -5,7 +5,7 @@ const TopHeader = () => {
     <div
       className="flex flex-col sm:flex-row items-start sm:items-center 
       justify-between gap-4 
-      text-white bg-[#1b2330] 
+      text-white bg-[#0f172a] 
       px-4 sm:px-6 md:px-10 
       py-4 rounded-lg"
     >
