@@ -21,7 +21,7 @@ const Hero = () => {
 
           {[
             "Varad","Nainesh","Shreyash","Kunal","Yogesh","Pradip",
-            "Tushar","Aditya","Shankar","Pravin","Mohit","Rohit","Amit"
+            "Tushar"
           ].map((name, i) => (
             <div key={i} className="flex flex-col items-center shrink-0">
               <img
