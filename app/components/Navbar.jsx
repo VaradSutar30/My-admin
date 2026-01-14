@@ -33,7 +33,7 @@ const Navbar = () => {
           placeholder="Type Something"
           className="w-full pl-4 pr-4 py-2 text-sm sm:text-base
           rounded-xl bg-zinc-800 text-white placeholder-gray-400
-          focus:outline-none focus:ring-2 focus:ring-zinc-600"
+          focus:outline-none focus:ring-2 focus:ring-zinc-600 shadow-xl"
         />
       </div>
 

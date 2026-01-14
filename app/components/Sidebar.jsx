@@ -10,12 +10,12 @@ const Sidebar = () => {
       className="
         fixed bottom-0 left-0 w-full h-16
         md:static md:w-56 md:h-screen
-        bg-gray-900 text-white shadow-lg z-50
+        bg-[#0f172a] text-white shadow-lg z-100
         flex md:flex-col items-center md:items-stretch
       "
     >
       {/* Logo – desktop only */}
-      <div className="hidden md:flex justify-center py-6 border-b border-gray-700">
+      <div className="hidden md:flex justify-center py-6 border-gray-700">
         <img
           src="/images/villa.jfif"
           alt="logo"

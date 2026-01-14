@@ -6,11 +6,11 @@ const Hero = () => {
       text-white bg-[#0f172a] 
       px-4 sm:px-6 md:px-10 
       py-4 sm:py-6 md:py-8 
-      rounded-xl shadow-md cursor-pointer">
+      rounded-xl shadow-xl cursor-pointer">
 
       {/* Left Section */}
       <div className="w-full">
-        <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-yellow-400">
+        <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-cyan-400">
           Members
         </h1>
 
