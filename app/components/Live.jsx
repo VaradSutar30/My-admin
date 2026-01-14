@@ -12,12 +12,12 @@ const Live = () => {
 
   return (
     <div
-      className="bg-[#0f172a] rounded-xl shadow-md 
+      className="bg-[#eff6ff] rounded-xl shadow-md 
       p-4 sm:p-5 md:p-6"
     >
       <h2
         className="text-base sm:text-lg md:text-xl 
-        font-semibold text-yellow-400 mb-3 sm:mb-4 
+        font-semibold text-[#1e3a8a] mb-3 sm:mb-4 
         flex items-center gap-2"
       >
         <span className="animate-pulse text-red-500 text-lg sm:text-xl">●</span>
@@ -43,7 +43,7 @@ const Live = () => {
 
       <h2
         className="text-base sm:text-lg md:text-xl 
-        font-semibold text-yellow-400 mb-3 sm:mb-4 
+        font-semibold text-[#1e3a8a] mb-3 sm:mb-4 
         flex items-center gap-2"
       >
         <span className="animate-pulse text-red-500 text-lg sm:text-xl">●</span>
@@ -69,7 +69,7 @@ const Live = () => {
 
       <h2
         className="text-base sm:text-lg md:text-xl 
-        font-semibold text-yellow-400 mb-3 sm:mb-4 
+        font-semibold text-[#1e3a8a] mb-3 sm:mb-4 
         flex items-center gap-2"
       >
         <span className="animate-pulse text-red-500 text-lg sm:text-xl">●</span>
@@ -95,7 +95,7 @@ const Live = () => {
 
       <h2
         className="text-base sm:text-lg md:text-xl 
-        font-semibold text-yellow-400 mb-3 sm:mb-4 
+        font-semibold text-[#1e3a8a] mb-3 sm:mb-4 
         flex items-center gap-2"
       >
         <span className="animate-pulse text-red-500 text-lg sm:text-xl">●</span>

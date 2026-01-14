@@ -3,14 +3,14 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row items-start md:items-center justify-between 
-      text-white bg-[#0f172a] 
+      text-white bg-[#22c55e]
       px-4 sm:px-6 md:px-10 
       py-4 sm:py-6 md:py-8 
       rounded-xl shadow-xl cursor-pointer">
 
       {/* Left Section */}
       <div className="w-full">
-        <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-cyan-400">
+        <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-[#064e3b]">
           Members
         </h1>
 
@@ -30,13 +30,13 @@ const Hero = () => {
                 className="w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 
                   rounded-full border-2 border-[#1b2330]"
               />
-              <span className="text-[10px] sm:text-xs mt-1 text-gray-300">
+              <span className="text-[10px] sm:text-xm mt-1 text-[#111827]">
                 {name}
               </span>
             </div>
           ))}
 
-          <span className="text-xs sm:text-sm text-gray-400 ml-2 shrink-0">
+          <span className="text-xs sm:text-sm text-[#111827] ml-2 shrink-0">
             +12 more
           </span>
         </div>

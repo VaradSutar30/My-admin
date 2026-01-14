@@ -8,9 +8,9 @@ const Sidebar = () => {
   return (
     <aside
       className="
-        fixed bottom-0 left-0 w-full h-16
+        fixed bottom-0 left-0 w-full h-22
         md:static md:w-56 md:h-screen
-        bg-[#0f172a] text-white shadow-lg z-100
+        bg-[#111827] text-white shadow-lg z-100
         flex md:flex-col items-center md:items-stretch
       "
     >

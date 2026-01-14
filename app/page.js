@@ -9,7 +9,7 @@ import RightSidebar from "./components/RightSidebar";
 
 export default function Page() {
   return ( 
-    <div className="min-h-screen w-full bg-[#0f172a] flex flex-1 overflow-y-auto pb-20 md:pb-0 border">
+    <div className="min-h-screen w-full bg-[#f9fafb] flex flex-1 overflow-y-auto pb-20 md:pb-0 border">
 
       {/* Left Sidebar / Bottom Bar on Mobile */}
       <Sidebar />

@@ -25,14 +25,14 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="w-full flex items-center justify-between px-4 sm:px-6 py-3 bg-[#0f172a] rounded-lg">
+    <div className="w-full flex items-center justify-between px-4 sm:px-6 py-3 bg-[#ffffff] rounded-lg">
       {/* Search Bar */}
       <div className="flex-1 max-w-full md:max-w-md mr-4">
         <input
           type="text"
           placeholder="Type Something"
           className="w-full pl-4 pr-4 py-2 text-sm sm:text-base
-          rounded-xl bg-zinc-800 text-white placeholder-gray-400
+          rounded-xl bg-[ffffff] text-white placeholder-gray-400
           focus:outline-none focus:ring-2 focus:ring-zinc-600 shadow-xl"
         />
       </div>

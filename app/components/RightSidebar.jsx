@@ -29,7 +29,7 @@ const RightSidebar = () => {
         </div>
 
         <div className="bg-zinc-800 p-3 rounded-lg text-sm">
-          🌡 Temperature stable at 25°C
+          🌡 Temperature stable at +15°C
         </div>
 
       </div>
